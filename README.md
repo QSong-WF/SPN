@@ -1,9 +1,11 @@
 
 •	“MainCode.R”
-The document is used for searching networks initiated from each gene located on the human functional protein interaction (FI) database. 
+The file is used for searching networks initiated from each gene located on the human functional protein interaction (FI) database. 
 Input: the gene expression data of breast cancer patients; survival time of breast cancer patients; protein-protein interaction database;
-Outut: subnetworks initiated from each gene; corresponding scores of subnetworks.
-Other: Specially, the three 100 trials are also implemented through this code with the random permutation of data (please read the “MainCode.R” for detail).
+'''
+\n
+'''
+
 •	“SignificanceTest.R”
 The document is used for selecting significant survival prognostic network markers (SPNs) through the results of three 100 trials.
 Input: the results of three 100 trials; the subnetworks obtained from “MainCode.R” initiated from each gene; corresponding scores of subnetworks;
